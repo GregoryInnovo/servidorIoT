@@ -3,6 +3,7 @@ var client = mqtt.connect("mqtt://localhost");
 const mysql = require("mysql");
 var moment = require("moment");
 
+console.log("Se prendio node");
 // se crea la conexión a mysql
 const connection = mysql.createPool({
   connectionLimit: 500,
