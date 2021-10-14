@@ -1,1 +1,24 @@
-
+{
+  "name": "servidoriot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "project": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryInnovo/servidorIoT.git"
+  },
+  "author": "Gregson <gregoryinnovo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregoryInnovo/servidorIoT/issues"
+  },
+  "homepage": "https://github.com/GregoryInnovo/servidorIoT#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "mqtt": "^4.2.8",
+    "mysql": "^2.18.1"
+  }
+}
